@@ -10,7 +10,7 @@
 	text-shadow: 0 0 2px $blue;
 }
 body {
-	background-color: $primary;
+	background-image: linear-gradient( #ab88ff, #21c08b);
 	font-family: $muli;
 	color: $light;
 	@extend %scroll;

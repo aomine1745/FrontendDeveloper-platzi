@@ -3,12 +3,10 @@
 .Header {
 	&__wrapper {
 		@extend %container-fluid;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		height: 80px;
 	}
 }
 
-.Branch {
-	&__logo {
-		width: 200px;
-	}
-}

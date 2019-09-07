@@ -1,0 +1,35 @@
+// User 
+
+.User {
+	position: relative;
+	width: 100px;
+	&__profile {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&-icon {
+			width: 50px;
+			@include desktop(400px) {
+				width: 40px;
+				margin-left: 12px;
+			}
+		}
+	}
+	&:hover &__actions {
+		display: block;
+	}
+	&__actions {
+		display: none;
+		position: absolute;
+		text-align: right;
+		&-item {
+			margin-top: 10px;
+		}
+		&-link:hover {
+			text-decoration: underline;
+		}
+	}
+	&__profile:hover &__actions {
+		display: block;
+	}
+}
