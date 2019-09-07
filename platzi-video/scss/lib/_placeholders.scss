@@ -1,0 +1,52 @@
+// PLACEHOLDERS 
+
+// containers
+%container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	@include mobile($bp-xs) {
+		max-width: 540px;
+	}
+	@include mobile($bp-sm) {
+		max-width: 720px;
+	}
+	@include mobile($bp-md) {
+		max-width: 960px;
+	}	
+	@include mobile($bp-lg) {
+		max-width: 1140px;
+	}
+	@include mobile($bp-lg-1) {
+		max-width: 1280px;
+	}
+}
+
+%container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+// Centrar layout
+%layout-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+// Tap Highlight
+%tap-highlight {
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+// Img Full
+%img-full {
+	height: 100%;
+	object-fit: cover;
+}

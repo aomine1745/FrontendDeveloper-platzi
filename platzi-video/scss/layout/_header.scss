@@ -1,0 +1,14 @@
+// Header
+
+.Header {
+	&__wrapper {
+		@extend %container-fluid;
+		height: 80px;
+	}
+}
+
+.Branch {
+	&__logo {
+		width: 200px;
+	}
+}
