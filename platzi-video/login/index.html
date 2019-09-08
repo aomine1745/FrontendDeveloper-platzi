@@ -19,17 +19,17 @@
 	<header class="Header">
 		<div class="Header__wrapper">
 			<div class="Branch">
-				<img src="../assets/img/logo-platzi-video-BW2.png" alt="Logo Platzi video" class="Branch__logo">
+				<img src="../assets/img/logo-platzi-video-BW2.png" alt="Logo Platzi video" class="Branch__logo" tabindex="0">
 			</div>
 		</header>
 
 		<!-- Login -->
 		<section class="Login">
 			<div class="Login__wrapper">
-				<h2 class="Login__title">Log In!</h2>
+				<h2 class="Login__title" tabindex="0">Log In!</h2>
 				<form action="/" class="Login__form">
-					<input type="email" class="Login__input" placeholder="Email" required>
-					<input type="password" class="Login__input" placeholder="Password" required>
+					<input type="email" class="Login__input" placeholder="Email" aria-label="Email" required>
+					<input type="password" class="Login__input" placeholder="Password"  aria-label="Password" required>
 					<button class="Login__btn">Log In!</button>
 
 					<div class="Login__actions">
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 
-				<p class="Login__signin">¿No tienes una cuenta? <a href="/signin" class="Login__signin-link">Regístrate!</a></p>
+				<p class="Login__signin">¿No tienes una cuenta? <a href="../signin" class="Login__signin-link">Regístrate!</a></p>
 			</div>
 		</section>
 
